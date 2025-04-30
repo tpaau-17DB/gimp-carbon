@@ -2,7 +2,7 @@
 
 # Carbon theme for GIMP
 
-![screenshot](screenshots/s1.png)
+![screenshot](screenshots/s1.jpg)
 
 </div>
 
