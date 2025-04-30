@@ -1,6 +1,6 @@
 <div align="center">
 
-# Amoled for GIMP
+# Carbon theme for GIMP
 
 ![screenshot](screenshots/s1.png)
 
@@ -9,7 +9,7 @@
 # Installation
 
 ### Windows
-Copy the CSS under `3.0` to `C:\Users\your_user\AppData\Local\Programs\GIMP 3\share\gimp\3.0\themes\Default`
+Copy the CSS under `3.0` to `C:\Users\your_user\AppData\Local\Programs\GIMP 3\share\gimp\3.0\themes\Default\`
 
 ### Linux
 
@@ -24,4 +24,4 @@ cp 3.0/common-dark.css 3.0/gimp-dark.css /var/lib/flatpak/app/org.gimp.GIMP/x86_
 ```
 
 # Credit
-Huge thanks to [NickIsOnYT](https://github.com/NickIsOnYT/gimp-amoled) for creating the base of this theme.
+Huge thanks to [NickIsOnYT](https://github.com/NickIsOnYT/gimp-amoled) for creating the base for this theme.
