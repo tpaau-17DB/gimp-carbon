@@ -8,16 +8,16 @@
  */
 
 /* Basic foreground, background and border colors. */
-@define-color fg-color               rgb(255,255,255);
+@define-color fg-color               rgb(185,185,185);
 @define-color bg-color               rgb(0,0,0);
 @define-color border-color           rgb(0,0,0);
 
 /********* Variants for foreground colors *********/
 
 /* In places where we want not as strongly contrasted text. */
-@define-color dimmed-fg-color        rgb(100,100,100);
+@define-color dimmed-fg-color        rgb(80,80,80);
 /* Disabled items, such as disabled actions in menus. */
-@define-color disabled-fg-color      rgb(150,150,150);
+@define-color disabled-fg-color      rgb(64,64,64);
 /* Disabled buttons are dimmed even more (text needs to still be
  * readable, but buttons design are usually enough. */
 @define-color disabled-button-color  rgb(100,100,100);
@@ -25,7 +25,7 @@
 /********* Variants for background colors *********/
 
 /* Background color for hovered items to "stick out". */
-@define-color hover-color            rgb(100,100,100);
+@define-color hover-color            rgb(64,64,64);
 /* Background color when we want widgets-in-widgets to differentiate. It
  * will usually be "less extreme", i.e. darker on a light theme, or
  * lighter on a dark theme.
@@ -35,30 +35,30 @@
  * color is @widget-bg-color or @bg-color. It will usually be lighter on
  * a light theme, or darker on a dark theme.
  */
-@define-color selected-color         rgb(30,30,30);
+@define-color selected-color         rgb(48,48,48);
 
 /* Background color more extreme in the theme tendency, i.e. darker on a
  * dark theme, ligther on a light theme. */
-@define-color extreme-bg-color       rgb(0,0,0);
+@define-color extreme-bg-color       rgb(18,18,18);
 /* Color for a selected item to "stick out" when @extreme-bg-color is
  * used. It will usually be darker than @bg-color on a light theme,
  * lighter on a dark theme.
  */
-@define-color extreme-selected-color rgb(10,10,10);
+@define-color extreme-selected-color rgb(0,0,0);
 
 /********* Variants for border colors *********/
 
-@define-color strong-border-color    rgb(20,20,20);
-@define-color stronger-border-color  rgb(60,60,60);
+@define-color strong-border-color    rgb(64,64,64);
+@define-color stronger-border-color  rgb(64,64,64);
 /* Border color for the edge of certain widgets. This needs
  * to be dark on light theme and very dark on dark themes */
-@define-color edge-border-color      rgb(25,25,25);
+@define-color edge-border-color      rgb(64,64,64);
 
 /********* Colors for special cases *********/
 
-@define-color scrollbar-slider-color rgb(140,140,140);
-@define-color scrollbar-trough-color rgb(60,60,60);
+@define-color scrollbar-slider-color rgb(185,185,185);
+@define-color scrollbar-trough-color rgb(80,80,80);
 
-@define-color ruler-color            rgba(35,35,35,0.3);
+@define-color ruler-color            rgba(32,32,32,0.3);
 
 @import url("common-dark.css");
